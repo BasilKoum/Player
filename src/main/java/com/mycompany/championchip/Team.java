@@ -70,4 +70,24 @@ public class Team {
         this.player1 = player1;
     }
 
+    private Player[] playerArray;
+
+    /**
+     * Get the value of playerArray
+     *
+     * @return the value of playerArray
+     */
+    public Player[] getPlayerArray() {
+        return playerArray;
+    }
+
+    /**
+     * Set the value of playerArray
+     *
+     * @param playerArray new value of playerArray
+     */
+    public void setPlayerArray(Player[] playerArray) {
+        this.playerArray = playerArray;
+    }
+
 }
